@@ -10,3 +10,7 @@ env.bak/
 venv.bak/
 
 *__pycache__
+
+dynamodb/*
+
+.DS_Store

@@ -1,9 +1,9 @@
 FROM python:3.9
 
 
-WORKDIR /app
-COPY ./app /app
+WORKDIR /api
+COPY ./api /api
 
 RUN pip install --upgrade pip
-RUN pip install fastapi uvicorn
+RUN pip install fastapi uvicorn boto3
 
