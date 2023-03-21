@@ -16,7 +16,8 @@ async def root():
 async def item(id):
     items = {
         "a": "hoge",
-        "b": "fuga"
+        "b": "fuga",
+        "c": "piyo"
     }
     return {"item": f"{items[id]}"}
 
